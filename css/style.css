@@ -12,7 +12,7 @@
 
     --logo-text-size: 24px;
     --logo-text-color: #F9FAF8;
-
+    --logo-text-weight: bold;
 }
 
 
@@ -31,19 +31,21 @@ html {
     padding: 0 100px 0 100px;
 }
 
-.hero-container {
+.first-container {
     background-color: var(--dark-background-color);
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    align-items: center;
+    padding: 16px 0;
 }
 
 .logo {
     font-size: var(--logo-text-size);
     color: var(--logo-text-color);
+    font-weight: var(--logo-text-weight)
 }
 
 a {
