@@ -4,8 +4,8 @@
     --dark-background-color: #1F2937;
 
     --hero-text-color: #F9FAF8;
-    --main-text-size: 48px;
-    --main-text-weight: 900;
+    --hero-text-size: 48px;
+    --hero-text-weight: 900;
 
     --secondary-text-size: 18px;
     --secondary-text-color: #E5E7EB;
@@ -13,6 +13,10 @@
     --logo-text-size: 24px;
     --logo-text-color: #F9FAF8;
     --logo-text-weight: bold;
+
+    --button-color: #3882F6;
+    --action-background: #3882F6;
+
 }
 
 
@@ -27,8 +31,8 @@ html {
     margin: 0;
 }
 
-.hero-container {
-    padding: 0 100px 0 100px;
+.first-container {
+    padding: 0 300px 100px 300px;
 }
 
 .first-container {
@@ -53,5 +57,51 @@ a {
     color: var(--secondary-text-color);
     font-size: var(--secondary-text-size);
     margin-left: 16px;
+}
+
+.hero-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 400px;
+    width: 50%;
+}
+
+.hero-text {
+    font-size: var(--hero-text-size);
+    font-weight: var(--hero-text-weight);
+    color: var(--hero-text-color);
+}
+
+.hero-secondary-text {
+    font-size: var(--secondary-text-size);
+    color: var(--secondary-text-color);
+}
+
+button {
+    background-color: var(--button-color);
+    font-weight: bold;
+    color: var(--hero-text-color);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.hero-img {
+    width: 450px;
+}
+
+img {
+    width: inherit;
+    height: auto;
 }
 
