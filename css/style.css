@@ -68,12 +68,12 @@ a {
     text-decoration: none;
     color: var(--secondary-text-color);
     font-size: var(--secondary-text-size);
-    margin-left: 16px;
+    margin-left: 100px;
 }
 
 .hero-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
