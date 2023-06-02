@@ -17,6 +17,14 @@
     --button-color: #3882F6;
     --action-background: #3882F6;
 
+    --info-text-color: #1F2937;
+    --info-text-size: 36px;
+    --info-text-weight: bold;
+
+    --quote-background: #E5E7EB;
+    --quote-text-size: 36px;
+    --quote-text-weight: light italic;
+    --quote-text-color: #1F2937;
 }
 
 
@@ -31,12 +39,16 @@ html {
     margin: 0;
 }
 
-.first-container {
+.first-container, .second-container, .third-container, .fourth-container {
     padding: 0 300px 100px 300px;
 }
 
 .first-container {
     background-color: var(--dark-background-color);
+}
+
+.second-container {
+    background-color: white;
 }
 
 header {
@@ -103,5 +115,10 @@ button {
 img {
     width: inherit;
     height: auto;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
 }
 
