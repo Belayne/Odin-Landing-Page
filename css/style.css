@@ -174,3 +174,48 @@ button {
     text-align: end;
 }
 
+.fourth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.action-div {
+    display: flex;
+    flex-flow: row wrap;
+    
+    align-items: center;
+    margin: 100px 0;;
+    padding: 50px 50px;
+    background-color: var(--action-background);
+    width: 900px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.action-text-div {
+    color: white;
+    margin-right: auto;
+}
+
+.action-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-subtext {
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+.action-button {
+    color: white;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: var(--action-background);
+}
+
+
+
