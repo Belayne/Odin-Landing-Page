@@ -40,10 +40,10 @@ html {
 }
 
 .first-container, .second-container, .third-container, .fourth-container {
-    padding: 0 300px 100px 300px;
+    padding: 100px 300px 100px 300px;
 }
 
-.first-container {
+.first-container, header {
     background-color: var(--dark-background-color);
 }
 
@@ -55,7 +55,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
+    padding: 16px 300px;
 }
 
 .logo {
@@ -72,7 +72,6 @@ a {
 }
 
 .hero-container {
-    margin-top: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +84,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    width: 300px;
+    width: 400px;
     flex-shrink: 0;
 }
 
@@ -112,12 +111,12 @@ button {
 }
 
 .hero-img-div {
-    width: 500px;
+    max-width: 500px;
 }
 
 .hero-img {
-    width: inherit;
-    height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .info-header {
@@ -125,13 +124,13 @@ button {
     font-weight: var(--info-text-weight);
     color: var(--info-text-color);
     text-align: center;
-    margin: 40px 0;
+    margin-bottom: 50px;
 }
 
 .cards-div {
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -157,8 +156,7 @@ button {
 }
 
 .quote-div {
-    margin: 100px 0;
-    width: 600px;
+    width: 700px;
 }
 
 .quote-text {
@@ -184,9 +182,7 @@ button {
 .action-div {
     display: flex;
     flex-flow: row wrap;
-    
     align-items: center;
-    margin: 100px 0;;
     padding: 50px 50px;
     background-color: var(--action-background);
     width: 900px;
@@ -216,6 +212,22 @@ button {
     border-radius: 8px;
     background-color: var(--action-background);
 }
+
+footer {
+    color: white;
+    background-color: var(--dark-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+
 
 
 
