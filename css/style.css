@@ -23,7 +23,7 @@
 
     --quote-background: #E5E7EB;
     --quote-text-size: 36px;
-    --quote-text-weight: light italic;
+    --quote-text-weight: 100;
     --quote-text-color: #1F2937;
 }
 
@@ -147,5 +147,30 @@ button {
     width: 200px;
     font-size: 18px;
     color: var(--info-text-color)
+}
+
+.third-container {
+    background-color: var(--quote-background);
+    color: var(--quote-text-color);
+    display: flex;
+    justify-content: center;
+}
+
+.quote-div {
+    margin: 100px 0;
+    width: 600px;
+}
+
+.quote-text {
+    font-size: var(--quote-text-size);
+    font-weight: var(--quote-text-weight);
+    font-style: italic;
+}
+
+
+.quote-author {
+    margin: 10px;
+    font-size: 24px;
+    text-align: end;
 }
 
