@@ -40,7 +40,7 @@ html {
 }
 
 .first-container, .second-container, .third-container, .fourth-container {
-    padding: 100px 300px 100px 300px;
+    padding: 100px 200px 100px 200px;
 }
 
 .first-container, header {
@@ -55,7 +55,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 300px;
+    padding: 16px 200px;
 }
 
 .logo {
@@ -73,7 +73,7 @@ a {
 
 .hero-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
